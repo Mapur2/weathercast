@@ -1,5 +1,5 @@
 .tdetail{
-    width: 50%;
+    width: 75%;
     height: 550px;
     justify-content: center;
     margin-top: 5%;
@@ -17,8 +17,7 @@
 }
 body{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Rotating_earth_animated.gif/300px-Rotating_earth_animated.gif");
-    background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
 
     font-size: 25px;
     color: black;
