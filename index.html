@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=512&id=19541&format=png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <title>WeatherCast</title>
+</head>
+
+<body>
+    <a href="https://mapur2.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="text-light" style="font-size: 20px; text-decoration: none;">
+        @Rupam Modak
+    </a>
+    <div class="container tdetail glass">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+              <h1>🌞WeatherCast🌞</h1>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <p><i>Keep Ahead of the Weather</i></p><cite title="Source Title"></cite>
+            </figcaption>
+          </figure>
+        <form class="">
+            <label for="city">Enter City name</label>
+            <input type="text" name="city" id="city">
+            <button id="btn" type="button" class="btn-warning btn">🔍</button>
+            <input type="button" value="Reset" id="reset" class="btn-danger btn">
+        </form>
+        <div id="load" class="grid"></div><br>
+        <div id="invalid" style="display: none;" class="container text-center"></div>
+        <div class="container text-center text-light" id="menu" style="display: none;">
+            <div class="row">
+                <div class="col" id="weather"></div>
+            </div>
+            <div class="row">
+            <div class="col">Temperature</div>
+            <div class="col" id="temp"></div>
+            </div>
+            <div class="row">
+                <div class="col">Feels Like</div>
+                <div class="col" id="feels_like"></div>
+            </div>
+            <div class="row">
+                <div class="col">Humidity</div>
+                <div class="col" id="humid"></div>
+            </div>
+            <div class="row">
+                <div class="col">State</div>
+                <div class="col" id="state"></div>
+            </div>
+            <div class="row">
+                <div class="col">Country</div>
+                <div class="col" id="count"></div>
+            </div>
+          </div><br><br>
+    </div>
+    <br>
+        
+          <br>
+          <br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
