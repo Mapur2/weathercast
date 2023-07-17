@@ -1,0 +1,53 @@
+.tdetail{
+    width: 50%;
+    height: 550px;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: 'Tektur', cursive;
+}
+#load{
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  transform: scale(2,2);
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px grey;
+}
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Rotating_earth_animated.gif/300px-Rotating_earth_animated.gif");
+    background-repeat: no-repeat;
+    background-size:100%;
+
+    font-size: 25px;
+    color: black;
+}
+ .glass
+{
+    background-image: linear-gradient(135deg,rgba(185, 170, 170, 0.1),rgba(0, 0, 0, 0.1));
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+    border: 1px double rgb(91, 82, 82,0.18);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 0);
+} 
+i{
+    background-color: rgb(2, 13, 167);
+    color: aliceblue;
+    padding:0px 8px;
+}
+#menu{
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(36, 33, 33),black);
+}
+#menu:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.6s;
+    box-shadow: 0px 0px 20px orangered;
+}
+#city{
+    background-color: rgb(39, 37, 37);
+    color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+}
